@@ -1,0 +1,32 @@
+
+/* Set styles for input textfields
+    Raj Patel
+    Styles for project 0
+    Submission Date: April 5,2022 */
+
+body { color: aquamarine; background-color: #363436;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: large;}
+h1 {color: aqua;}
+a:link {
+    color: aqua;
+  }
+  a:visited {
+    color: aquamarine;
+  }
+  a:hover {
+    color: whitesmoke;
+  }
+  button {
+    background-color: #e612e6;
+    border: aqua;
+    color: #f1ecf1;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  button:hover {
+    background-color: blueviolet;
+    color: white;
+  }

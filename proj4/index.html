@@ -1,0 +1,93 @@
+<!-- Raj Patel  
+     Project 4
+     Due Date: May 31, 2022 -->
+
+     <!DOCTYPE html>
+
+     <html>
+      
+      <head>
+      
+       <!--Title of my page-->
+        <title>Online Quiz</title>
+      
+        <!--The css is linked to an in directory styles.css-->
+        <link rel="stylesheet" href="styles.css">
+ 
+        <!--The script.js contains the javascript code-->
+        <script src='script.js'></script>
+ 
+      </head>
+      
+      <body>
+      
+         <h1>Online Quiz on Indian General Knowledge (GK)</h1>
+ 
+         <br>
+        
+         <!--The upload feature to upload the .json file-->
+ 
+         <label for="file">
+           Upload JSON Input File:
+         </label><br>
+         <br>
+         <input type="file" id="file"><br><br>
+ 
+ 
+         
+         <p>If you are having trouble finding the answer, you can click on each question to find a hint.</p>
+ 
+         <span id="r1">1. When did India received its independence?</span><br> <!--Question-->
+         <span id="a1">Hint: They received it in late 1940's </span> <!--Hint-->
+         <ol>
+             <li><input type="radio" id="11" value="A" name="q1">A - 1920<br></li>
+             <li><input type="radio" id="12" value="B" name="q1">B - 1947<br></li> <!--Answer choices-->
+             <li><input type="radio" id="13" value="C" name="q1">C - 1967<br><br></li>
+             <img id="img1" name="q1">
+         </ol>
+         
+         <span id="r2">2. When does India celebrates its Independence day every year?</span>  <!--Question-->
+         <span id="a2">Hint: Its somewhere around after America's Independence</span> <!--Hint-->
+         <ol>
+           <li><input type="radio" id="21" value="A" name="q2">July 4th</li>
+           <li><input type="radio" id="22" value="B" name="q2">August 15th</li> <!--Answer choices-->
+           <li><input type="radio" id="23" value="C" name="q2">October 2nd<br><br></li>
+           <img id="img2" name="q2">
+         </ol>
+ 
+         <span id="r3">3. Who is the current Prime Minister of India?</span>  <!--Question-->
+         <span id="a3">Hint: The current prime minister is a Gujarati</span> <!--Hint-->
+         <ol>
+           <li><input type="radio" id="31" value="A" name="q3">Dr. APJ Abdul Kalam</li>
+           <li><input type="radio" id="32" value="B" name="q3">Manmohan Singh</li> <!--Answer choices-->
+           <li><input type="radio" id="33" value="C" name="q3">Narendra Modi<br><br></li>
+           <img id="img3" name="q3">
+         </ol>
+ 
+         <span id="r4">4. What's the Native language of India?</span>  <!--Question-->
+         <span id="a4">Hint: The language is spoken by majority of Indians</span> <!--Hint-->
+         <ol>
+           <li><input type="radio" id="41" value="A" name="q4">Hindi</li>
+           <li><input type="radio" id="42" value="B" name="q4">English</li> <!--Answer choices-->
+           <li><input type="radio" id="43" value="C" name="q4">Punjabi<br><br></li>
+           <img id="img4" name="q4">
+         </ol>
+ 
+         <span id="r5">5. Who was declared Miss Universe from India in 2021 Beauty Pageant?</span>  <!--Question-->
+         <span id="a5">Hint: This peoson is currently just a model and has not worked in any movies yet</span> <!--Hint-->
+         <ol>
+           <li><input type="radio" id="51" value="A" name="q5">Sushmita Sen</li>
+           <li><input type="radio" id="52" value="B" name="q5">Lara Dutta</li> <!--Answer choices-->
+           <li><input type="radio" id="53" value="C" name="q5">Harnaaz Kaur Sandhu<br><br></li>
+           <img id="img5" name="q5">
+         </ol>
+ 
+         <button id="btn">Submit Quiz</button> <!--Submit quiz button-->
+             <p id="numbercorrect"></p>
+             <p id="numberincorrect"></p>
+ 
+         <!--Back to index page link-->
+         <p1><a href="../index.html"> <button> Return to Directory</button></a></p1>
+  
+      </body>
+     </html>

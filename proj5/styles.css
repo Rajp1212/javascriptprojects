@@ -1,0 +1,44 @@
+/* Set styles for input textfields
+    Raj Patel
+    Styles for project 5
+    Due Date: June 07, 2022 */
+
+    body { color: rgb(214, 91, 248); background-color: #242424;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: medium;}
+h1 {color: rgb(129, 96, 246);}
+ol{
+    list-style-type: upper-alpha;
+  }
+p {color: rgb(90, 75, 250);}
+button {
+    background-color: rgb(251, 95, 204);
+    border: aqua;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  button:hover {
+    background-color: rgb(167, 88, 168);
+    color: rgb(0, 0, 0);
+  }
+
+  /* This hides the error message and displays it when the user makes a mistake by either not filling 
+  in or not validly filling in the required textfield in red*/
+  #Namee, #Agee { 
+    display: none; 
+    color: #C00000; 
+}
+/* This would hide the optional textfield for the friend's refferal code until clicked upon to input
+   */
+   #a1 { 
+    display: none; 
+}
+
+image {
+    width: 50%;
+    height: 30%;
+    object-fit: cover;
+}

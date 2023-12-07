@@ -1,0 +1,22 @@
+/* Set styles for input textfields
+    Raj Patel
+    Styles for project 2A
+    Submission Date: April 28,2022 */
+
+    body { color: rgb(255, 255, 255); background-color: #24256d;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: medium;}
+h1 {color: rgb(255, 255, 255);}
+button {
+    background-color: #000000;
+    border: aqua;
+    color: #f1ecf1;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  button:hover {
+    background-color: rgb(50, 245, 12);
+    color: rgb(0, 0, 0);
+  }

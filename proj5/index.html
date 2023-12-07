@@ -1,0 +1,92 @@
+<!-- Raj Patel  
+     Project 5
+     Due Date: June 07, 2022-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Form</title>
+	<link rel="stylesheet" href="styles.css"> <!--Style.css and script.js external file links -->
+	<script src='script.js'></script>
+	</head>
+
+		<body>
+		<h1> Submission Form</h1><br>
+
+		<h1>Gym Membership</h1>
+
+        	<!--Img src for the image of gym for the page-->
+	        <img src="gym.jpg" alt="Gym">
+
+	<p>If you have refferal code from a friend for discount, you can put in the refferal code section!</p><br>
+
+	<!--Php server link that gives back a receipt of submission-->
+	<form id="form1" name="form1" action="http://ectweb.cs.depaul.edu/sjost/receipt.php"
+											
+	method="post">
+
+			<!--First Name Label-->
+	<label for="First">First Name </label><br>
+	<input type="text" id="FN" name="Firstname"><br><br>
+
+	<!--Last Name Label-->
+	<label for="Last">Last Name </label><br>
+	<input type="text" id="LN" name="Lastname"><br><br>
+
+	<!--Membership Label-->
+	<label for="member">Membership Type</label><br>
+	<select id="Member" name="Membership">
+		<option value="">Select Membership</option>
+		<option value="basic">Basic</option>
+		<option value="premium">Premium</option>
+		<option value="gold">Gold</option>
+	</select><br><br>
+
+	<!--Username Label with span id tags to display required field message with the valid format-->
+	<label for="name">Username</label><br>
+	<input type="text" id="Username" name="Username"><br><br>
+	<span id="Namee">
+	*USERNAME must be filled in!<br>
+	</span>
+
+	<!--Password Label-->
+	<label for="Password">Password</label><br>
+	<input type="text" id="Password" name="Password"><br><br>
+
+	<!--Gender Label-->
+	<label for="gender">Gender</label><br>
+	<input type="text" id="gender" name="Gender"><br><br>
+
+	<!--Age Label with span id tags to display required field message with the valid format -->
+	<label for="age">Age</label><br>
+	<input type="text" id="Age" name="Age"><br><br>
+	<span id="Agee">
+	*AGE must be filled in with a two digit format!<br>
+	</span>
+
+	<!--Email Address Label-->
+	<label for="email_address">Email Address</label><br>
+	<input type="text" id="Email Address" name="Email Address"><br><br>
+
+	<!--Span id tags for giving the option to click to input a frined's referral code-->
+	<span id="r1">
+		For Refferal Code - Click Here</span><br><br>
+	<span id="a1">
+
+		<!--Friend's Referral Code Label-->
+	<label for="friendcode">Enter Your Friend's Referral Code</label><br>
+	<input type="text" id="Friend Code" name="Friend Code"><br><br>
+	</span>
+
+	<!--Submit the completed form button-->
+	<button>Sign Up</button><br><br>
+
+	<!--Back to index link-->
+	<p1><a href="../index.html"> <button> Return to Directory</button></a></p1>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!-- Raj Patel  
+     Project 2b
+     Due Date: May 17, 2022 -->
+
+     <!DOCTYPE html>
+
+     <!-- HTML file that selects json file from users hardrive and inputs
+          city, ctry/subctry then outputs
+          the city, stry/subctry for all the areas that
+          match the criteria including both parts -->
+     
+     <html lang="en">
+         <head>
+             <meta charset="UTF-8">
+             <title>Country Info</title>
+
+             <!--Script2.js which reference which cotanins all of the javascript code-->
+             <script src="script.js"></script>
+
+             <!--Separate styles.css sheet for this project-->
+             <link rel="stylesheet" href="styles.css">
+            
+
+         </head>
+         <body>
+
+           <!--Getiing the cities info by inputting the country and subcountry-->
+
+             <h1>File Upload Example</h1>
+
+             <h2>Get City Info</h2>
+     
+              <!-- File feature option to click and upload json file from user's hardrive -->
+             <label for="file">
+               Upload JSON Input File: </label>
+               <br>
+               <br>
+           <input type="file" id="file"><br><br>
+
+             <!-- Input textfield for ctry -->
+             <label for="txt_country">Country:</label><br>
+             <input type="input" id="txt_country"><br><br>
+     
+             <!-- Input textfield for subctry-->
+             <label for="txt_subcountry">Subcountry:</label><br>
+             <input type="input" id="txt_subcountry"><br><br>
+     
+     
+             <!-- Button for displaying city info -->
+             
+             <button id="btn_city_info">
+                 <strong>Get City Info</strong>
+             </button>
+             <br>
+             <br>
+
+             <!--Output 1 for the result upson the button clicked-->
+             <label for="output1">All Cities for the given Country and Subcountry:</label><br>
+             <textarea id="output1"></textarea><br><br>
+
+             <!--Getiing the country/subcountry info by inputting the city -->
+
+             <h2>Get Country/SubCountry Info</h2>
+
+             <!-- Input textfield for city -->
+             <label for="txt_city">City:</label><br>
+             <input type="input" id="txt_city"><br><br>
+
+             <!-- Button for displaying ctry/sub info -->
+
+             <button id="btn_subctry_info">
+               <strong>Get Country/SubCountry Info</strong>
+           </button>
+           <br>
+           <br>
+   
+           <!--Output 2 for the result upson the button clicked-->
+           <label for="output2">All Countries and Subcountries for the given City:</label><br>
+           <textarea id="output2"></textarea><br>
+           <br>
+           <br>
+
+            <!--Reference back to index.html page -->
+            <p1><a href="../index.html"> <button> Return to Directory</button></a></p1>
+
+         </body>
+     </html>

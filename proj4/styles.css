@@ -1,0 +1,32 @@
+/* Set styles for input textfields
+    Raj Patel
+    Styles for project 4
+    Due Date: May 31, 2022 */
+
+/*This is to hide the hints untill clicked*/
+#a1, #a2, #a3, #a4, #a5{ display: none; }
+
+    body { color: aquamarine; background-color: #323232;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: medium;}
+h1 {color: rgb(66, 255, 255);}
+ol{
+    list-style-type: upper-alpha;
+  }
+p {color: rgb(54, 219, 192);}
+button {
+    background-color: aqua;
+    border: aqua;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  button:hover {
+    background-color: rgb(101, 161, 167);
+    color: rgb(0, 0, 0);
+  }
+  img { 
+    height: 25px; 
+  }
